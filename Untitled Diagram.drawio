@@ -1,84 +1,92 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Page-1" id="djBv1Q10ImQAlOTxccHw">
-    <mxGraphModel>
+    <mxGraphModel dx="1169" dy="862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Fully-Connected Layers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="407" width="276" height="199" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="407" width="204" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Pooling Layers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="304" y="282" width="211" height="448" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Input Data&lt;br&gt;&lt;/h1&gt;Images of plant leaves, categorised by disease and health status" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311" y="412" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Convolutional Layers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="535" y="158" width="495" height="697" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="342" width="298" height="366" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Input" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="691" y="8" width="183" height="100" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="627" y="387" width="276" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Input Layer" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="726" y="33" width="113" height="50" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-25" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Image enhancement&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Adjusts contrast and reduces noise&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="631" y="386" width="273" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Convolutional Layer 1" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="689" y="183" width="188" height="50" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Preprocessing&lt;/font&gt;&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="634" y="345" width="181" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Convolutional Layer 2" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="570" y="780" width="188" height="50" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="628" y="482" width="276" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Convolutional Layer 3" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="807" y="780" width="188" height="50" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="628" y="588" width="276" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Pooling Layer 1" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="339" y="307" width="141" height="50" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-34" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Resizing&lt;br&gt;&lt;/h1&gt;&lt;p&gt;All images resized to 224 x 224 pixel for consistency&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="634" y="482" width="263" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="Pooling Layer 2" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="339" y="656" width="141" height="50" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-35" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Normalization&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Normalize pixel values to [0,1] for faster model convergence&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="633.5" y="588" width="263" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="Fully-Connected Layer 1" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="43" y="432" width="206" height="50" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="954" y="345" width="483" height="446" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="Fully-Connected Layer 2" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="43" y="531" width="206" height="50" as="geometry" />
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-37" value="&lt;font size=&quot;1&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Methodology&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="999" y="350.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="6" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="971" y="387" width="424" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=1;entryY=0.31;" edge="1" parent="1" source="7" target="10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="782" y="282" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-40" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Base model - InceptionV3&lt;br&gt;&lt;/h1&gt;Pre-trained on ImageNet, retains feature extraction layers" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="974" y="386" width="360" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.1;" edge="1" parent="1" source="10" target="12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="409" y="407" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="971" y="488" width="424" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;" edge="1" parent="1" source="12" target="13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-42" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Global Average Pooling Layer&lt;br&gt;&lt;/h1&gt;Reduces spatial features to a single vector per feature map" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="974" y="488" width="360" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="13" target="11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="146" y="606" />
-              <mxPoint x="409" y="631" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="971" y="590" width="424" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;" edge="1" parent="1" source="11" target="9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="409" y="730" />
-              <mxPoint x="901" y="755" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-44" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Fully Connected Layer&lt;br&gt;&lt;/h1&gt;Dense layer with ReLU activation for learning complex representations, dropout applied" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="974" y="591" width="360" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="971" y="690" width="424" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-46" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Classification Layer&lt;br&gt;&lt;/h1&gt;Final layer with softmax activation, suited for multi-class classification" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="976" y="692" width="360" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1523" y="345" width="483" height="363" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-59" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;Performance Evaluation&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1533" y="350.5" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="387" width="424" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-61" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Accuracy&lt;br&gt;&lt;/h1&gt;Percentage of correct predictions" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1543" y="386" width="360" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="488" width="424" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-63" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;F1 Score&lt;br&gt;&lt;/h1&gt;Balance between precision and recall" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1543" y="488" width="360" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="590" width="424" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-65" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Confusion Matrix&lt;br&gt;&lt;/h1&gt;Matrix showing true vs predicted class" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1543" y="591" width="360" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
