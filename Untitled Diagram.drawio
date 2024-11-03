@@ -88,6 +88,24 @@
         <mxCell id="TDdBLcT1Wd8B_3UTEOoj-65" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 18px;&quot;&gt;Confusion Matrix&lt;br&gt;&lt;/h1&gt;Matrix showing true vs predicted class" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1543" y="591" width="360" height="74" as="geometry" />
         </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-68" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="528" y="476" as="sourcePoint" />
+            <mxPoint x="600" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-70" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="923" y="479" as="sourcePoint" />
+            <mxPoint x="950" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TDdBLcT1Wd8B_3UTEOoj-72" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1444" y="479" as="sourcePoint" />
+            <mxPoint x="1516" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
